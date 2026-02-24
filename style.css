@@ -92,3 +92,21 @@ h2 {
 .btn:hover {
     background: #1ebd5a;
 }
+/* Banner tipo Temu */
+.banner {
+    background: linear-gradient(90deg, #ff9f43, #ff6b6b);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.banner p {
+    margin-top: 10px;
+    font-size: 16px;
+}
