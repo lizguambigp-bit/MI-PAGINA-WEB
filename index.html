@@ -1,29 +1,45 @@
 <!-- Mi página web publicada -->
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi tienda</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Mi Tienda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Bienvenido a mi tienda</h1>
+<header>🛒 Mi Tienda Online</header>
 
-<img src="IMAGEN.jpeg" width="200">
+<div class="container">
 
-<p>Producto bonito</p>
-<p>Precio: $10</p>
+    <div class="product">
+        <img src="IMAGEN.jpeg">
+        <h3>Producto bonito</h3>
+        <p class="price">$10</p>
+        <button onclick="window.open('https://wa.me/593XXXXXXXXX?text=Hola,%20quiero%20comprar%20el%20Producto%20bonito')">
+            Comprar por WhatsApp
+        </button>
+    </div>
 
- <button onclick="window.open('https://wa.me/593959064173?text=Hola,%20quiero%20comprar%20este%20producto')">
-Comprar por WhatsApp
-</button>
-<script>
-function comprar() {
-  alert("Gracias por tu interés 💖 Pronto podrás comprar este producto.");
-}
-</script>
+    <div class="product">
+        <img src="IMAGEN.jpeg">
+        <h3>Producto nuevo</h3>
+        <p class="price">$15</p>
+        <button onclick="window.open('https://wa.me/593XXXXXXXXX?text=Hola,%20quiero%20comprar%20el%20Producto%20nuevo')">
+            Comprar por WhatsApp
+        </button>
+    </div>
+
+    <div class="product">
+        <img src="IMAGEN.jpeg">
+        <h3>Producto oferta</h3>
+        <p class="price">$8</p>
+        <button onclick="window.open('https://wa.me/593XXXXXXXXX?text=Hola,%20quiero%20comprar%20el%20Producto%20oferta')">
+            Comprar por WhatsApp
+        </button>
+    </div>
+
+</div>
+
 </body>
-
 </html>
-
-
