@@ -8,60 +8,61 @@
 </head>
 <body>
 
-<header class="topbar">
-  <div class="logo">MI TIENDA</div>
+<!-- BARRA SUPERIOR -->
+<header class="top">
+  <div class="logo">🛍 MI TIENDA</div>
   <input type="text" placeholder="Buscar productos...">
 </header>
 
-<div class="container">
+<!-- CATEGORÍAS -->
+<nav class="categories">
+  <span>Ofertas</span>
+  <span>Ropa</span>
+  <span>Belleza</span>
+  <span>Electrónica</span>
+  <span>Hogar</span>
+</nav>
 
-  <!-- FILTROS -->
-  <aside class="filters">
-    <h3>Filtrar por</h3>
-    <label><input type="checkbox"> Ofertas</label>
-    <label><input type="checkbox"> Más vendidos</label>
-    <label><input type="checkbox"> Nuevos</label>
+<!-- PRODUCTOS -->
+<section class="products">
 
-    <h3>Categorías</h3>
-    <label><input type="checkbox"> Ropa</label>
-    <label><input type="checkbox"> Accesorios</label>
-    <label><input type="checkbox"> Belleza</label>
-  </aside>
+  <div class="product">
+    <img src="IMAGEN.jpeg">
+    <p class="title">Producto bonito</p>
+    <p class="price">$10</p>
+    <button onclick="window.open('https://wa.me/593959064173?text=Hola,%20quiero%20el%20Producto%20bonito')">
+      Comprar
+    </button>
+  </div>
 
-  <!-- PRODUCTOS -->
-  <main class="products">
+  <div class="product">
+    <img src="IMAGEN.jpeg">
+    <p class="title">Producto nuevo</p>
+    <p class="price">$15</p>
+    <button onclick="window.open('https://wa.me/593959064173?text=Hola,%20quiero%20el%20Producto%20nuevo')">
+      Comprar
+    </button>
+  </div>
 
-    <div class="card">
-      <img src="IMAGEN.jpeg">
-      <h4>Producto bonito</h4>
-      <p class="price">$10</p>
-      <button onclick="window.open('https://wa.me/593959064173?text=Hola,%20quiero%20comprar%20Producto%20bonito')">
-        Comprar
-      </button>
-    </div>
+  <div class="product">
+    <img src="IMAGEN.jpeg">
+    <p class="title">Producto oferta</p>
+    <p class="price">$8</p>
+    <button onclick="window.open('https://wa.me/593959064173?text=Hola,%20quiero%20el%20Producto%20oferta')">
+      Comprar
+    </button>
+  </div>
 
-    <div class="card">
-      <img src="IMAGEN.jpeg">
-      <h4>Producto nuevo</h4>
-      <p class="price">$14</p>
-      <button onclick="window.open('https://wa.me/593959064173?text=Hola,%20quiero%20comprar%20Producto%20nuevo')">
-        Comprar
-      </button>
-    </div>
+  <div class="product">
+    <img src="IMAGEN.jpeg">
+    <p class="title">Producto popular</p>
+    <p class="price">$12</p>
+    <button onclick="window.open('https://wa.me/593959064173?text=Hola,%20quiero%20el%20Producto%20popular')">
+      Comprar
+    </button>
+  </div>
 
-    <div class="card">
-      <img src="IMAGEN.jpeg">
-      <h4>Producto popular</h4>
-      <p class="price">$12</p>
-      <button onclick="window.open('https://wa.me/593959064173?text=Hola,%20quiero%20comprar%20Producto%20popular')">
-        Comprar
-      </button>
-    </div>
-
-  </main>
-
-</div>
+</section>
 
 </body>
 </html>
-
