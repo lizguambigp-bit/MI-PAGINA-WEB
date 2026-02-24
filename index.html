@@ -2,45 +2,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mi Tienda</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Mi Tienda</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>🛒 Mi Tienda Online</header>
+<header class="topbar">
+  <div class="logo">🛒 Mi Tienda</div>
+  <input type="text" placeholder="Buscar productos...">
+  <a class="sell">Vender</a>
+</header>
 
-<div class="container">
+<div class="layout">
 
-    <div class="product">
-        <img src="IMAGEN.jpeg">
-        <h3>Producto bonito</h3>
-        <p class="price">$10</p>
-        <button onclick="window.open('https://wa.me/593959064173?text=Hola,%20quiero%20comprar%20el%20Producto%20bonito')">
-            Comprar por WhatsApp
-        </button>
+  <aside class="sidebar">
+    <h3>Categorías</h3>
+    <ul>
+      <li>Hogar</li>
+      <li>Ropa</li>
+      <li>Tecnología</li>
+      <li>Belleza</li>
+      <li>Ofertas</li>
+    </ul>
+  </aside>
+
+  <main class="products">
+
+    <div class="card">
+      <img src="IMAGEN.jpeg">
+      <h4>Producto bonito</h4>
+      <p class="price">$10</p>
+      <button onclick="window.open('https://wa.me/593TU_NUMERO?text=Hola,%20quiero%20este%20producto')">
+        Comprar
+      </button>
     </div>
 
-    <div class="product">
-        <img src="IMAGEN.jpeg">
-        <h3>Producto nuevo</h3>
-        <p class="price">$15</p>
-        <button onclick="window.open('https://wa.me/593XXXXXXXXX?text=Hola,%20quiero%20comprar%20el%20Producto%20nuevo')">
-            Comprar por WhatsApp
-        </button>
+    <div class="card">
+      <img src="IMAGEN.jpeg">
+      <h4>Producto nuevo</h4>
+      <p class="price">$15</p>
+      <button onclick="window.open('https://wa.me/593TU_NUMERO?text=Hola,%20quiero%20este%20producto')">
+        Comprar
+      </button>
     </div>
 
-    <div class="product">
-        <img src="IMAGEN.jpeg">
-        <h3>Producto oferta</h3>
-        <p class="price">$8</p>
-        <button onclick="window.open('https://wa.me/593XXXXXXXXX?text=Hola,%20quiero%20comprar%20el%20Producto%20oferta')">
-            Comprar por WhatsApp
-        </button>
+    <div class="card">
+      <img src="IMAGEN.jpeg">
+      <h4>Producto oferta</h4>
+      <p class="price">$8</p>
+      <button onclick="window.open('https://wa.me/593TU_NUMERO?text=Hola,%20quiero%20este%20producto')">
+        Comprar
+      </button>
     </div>
 
+  </main>
 </div>
 
 </body>
 </html>
-
